@@ -337,3 +337,42 @@
 // document.write("<br>" + "<br>" +"<b>" + " Net Amount Payable (within Due Date):  " + "</b>" + with_dueDate);
 // document.write("<br>" + "<b>" + " Late Payment Surcharge: " + "</b>" + late_pay);
 // document.write("<br>" + "<b>" + " Gross Amount Payable (after Due Date): " + "</b>" + after_dueDate);
+
+
+//CHAPTER 35-38
+// //Q1
+// function date(){
+//     document.write(new Date());
+// }
+// date();
+
+// //Q2
+// function greet(){
+//   var first_input = prompt("Enter your first name");
+//   var last_input = prompt("Enter last name");
+//   var gret = "Hello! " + first_input+ " " +last_input;
+//   alert(gret);
+// }
+// greet();
+
+// //Q3
+// function add(){
+//     var first = +prompt("Enter first Value");
+//     var second = +prompt("Enter second Value");
+//     var ad = first+second;
+//     alert(ad)
+//     return ad;
+// }
+// add();
+
+// //Q4
+// function calculator(num1,num2){
+//     return num1+num2;
+// }
+// document.write(calculator(5,5));
+
+// //Q5
+// function exp(num1){
+//  return num1 ** 2
+// }
+// document.write(exp(2));
