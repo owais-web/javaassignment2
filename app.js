@@ -376,3 +376,89 @@
 //  return num1 ** 2
 // }
 // document.write(exp(2));
+
+// //Q6
+// function factorial(n){
+//     return (n != 1) ? n * factorial(n - 1) : 1;
+// }
+  
+//   alert( factorial(4) );
+
+// //Q7
+// function counting(){
+//     var first = +prompt("Enter first value");
+//     var end = +prompt("Enter End value");
+//     for(i = first ; i <= end ; i++){
+//         document.write(i + "<br>")
+//     }
+// }
+// counting();
+
+// //Q8
+// function calculateHypotenuse(){
+//         alert("Hello! this is a rigth triangle formula please give values for process the formula \n Hypotenuse2 = Base2 + Perpendicular2");
+//         var inpur_forbase = +prompt("Enter Base value");
+//         var inpur_forperp = +prompt("Enter perp value");
+//         var square_base = inpur_forbase ** 2;
+//         var square_perp = inpur_forperp ** 2;
+//         var hyp_plus = square_base + square_perp;
+//         var hyp_square = Math.sqrt(hyp_plus);
+//         alert("Hypotenuse = " + hyp_square);
+        
+//     }
+// calculateHypotenuse();
+
+// //Q9 part: 1 
+// function calcrectangle(Width , height){
+//     return Width * height;
+// }
+// alert(calcrectangle(2,3));
+
+// // //Q9 part: 2
+// function calcrectangle2(width , height){
+//     var pro = width * height;
+//     alert(pro);
+// } 
+// calcrectangle2(5,5);
+
+// //Q10
+// function pelindrom(){
+//     var word = prompt("Enter palindrome word");
+//     var check = word.split("").reverse().join("");
+//     if(word === check){
+//         alert(word + " is palindrome word");
+//     }else{
+//         alert(word + " is not palindrome word");
+//     }
+// }
+// pelindrom();
+
+// //Q11
+// function ocuur(){
+//     var text = "JSResourceS.com";
+// document.write("Text: " + text);
+// document.write("<br>" + "There are " + text.match(/o/gi).length + " occurrence(s) of word 'o' ");
+// }
+// ocuur();
+
+// //Q14 Part: 1
+// function calcCircumference(num1 , num2 , num3){
+//     alert("Hello! enter value of radius for this formula \n Circumference of circle = 2πr")
+//    var num1 = 2;
+//    var num2 = 3.14;
+//    var num3 = +prompt("Enter radius value");
+//    var tot = num1*num2*num3;
+//    alert("Circumference of circle " + tot);
+// }
+// calcCircumference();
+
+// //Q14 Part: 2
+// function calcArea(numb1 , numb2){
+//     alert("Hello! enter value of radius for this formula \n Area of circle = πr2")
+//     var numb1 = 3.14;
+//     var radius = +prompt("Enter radius value");
+//     var numb2 = radius ** 2;
+//     var total = numb1*numb2;
+//     alert("Area of circle " +total);
+// }
+// calcArea();
